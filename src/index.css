@@ -1,0 +1,35 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    font-family: 'Nunito', system-ui, -apple-system, sans-serif;
+    background-color: #F0F9FF;
+    color: #1E293B;
+  }
+
+  h1, h2, h3, h4, .font-display {
+    font-family: 'Fredoka', 'Nunito', cursive, sans-serif;
+  }
+}
+
+/* Custom syllable letter tracking & clarity for 1st grade */
+.syllable-display {
+  font-family: 'Fredoka', 'Nunito', sans-serif;
+  letter-spacing: 0.08em;
+}
+
+/* Print styles for reading certificate */
+@media print {
+  body * {
+    visibility: hidden;
+  }
+  #certificate-print-area, #certificate-print-area * {
+    visibility: visible;
+  }
+  #certificate-print-area {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+  }
+}

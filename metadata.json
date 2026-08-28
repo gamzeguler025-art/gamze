@@ -1,0 +1,6 @@
+{
+  "name": "1. Sınıf Hece Okuma Uygulaması",
+  "description": "1. sınıf öğrencileri için 2. grup hecelerle etkileşimli, seslendirmeli ve oyunlaştırılmış okuma öğrenme uygulaması.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
